@@ -1,0 +1,35 @@
+.nav{
+    position: fixed;
+    /* margin: 0; */
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+
+}
+.nav_log{
+    width: 85px;
+    height: 40px;
+    left: 0;
+    top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    object-fit: contain;
+}
+.nav_black{
+    background-color: black;
+}
+.nav_avator{
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    right: 20px;
+    top: 10px;  
+    cursor: pointer;
+    object-fit: contain;
+    
+}
+
